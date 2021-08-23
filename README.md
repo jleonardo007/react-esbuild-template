@@ -14,9 +14,9 @@ Installs the project's dependencies specifies in package.json.
 
 This script runs as follow:
 
-1. Creates a server through `esbuild.serve()`. This serves the bundled files at **http://localhost:5050/serve/**.
+1. Creates a server through `esbuild.serve()`. This serves the bundled files at **http://localhost:8080/serve/**.
 
-2. Creates a development server that serves files at **public folder** then `index.html` consumes the files serve by **http://localhost:5050/serve/**. Development server runs at **http://localhost:3000**
+2. Creates a development server that serves files at **public folder** then `index.html` consumes the files serve by **http://localhost:8080/serve/**. Development server runs at **http://localhost:3000**
 
 ### `yarn test`
 
